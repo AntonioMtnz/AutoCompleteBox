@@ -44,7 +44,7 @@ namespace AutoCompletar
             aList.MinimumPrefixLength = 1;
             aList.ItemsSource = cityList;
 
-            eHTxtCiudad.Child = aList; //
+            eHTxtCiudad.Child = aList; 
         }
     }
 }
