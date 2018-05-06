@@ -19,7 +19,7 @@ namespace AutoCompletar
             CargarAutoComplete();
         }
 
-        //Método para cargar la lista de autocompletado.
+        //Método para cargar la lista de autocompletado. 
         private void CargarAutoComplete()
         {
             AutoCompleteBox aList = new AutoCompleteBox();
@@ -44,7 +44,7 @@ namespace AutoCompletar
             aList.MinimumPrefixLength = 1;
             aList.ItemsSource = cityList;
 
-            eHTxtCiudad.Child = aList;
+            eHTxtCiudad.Child = aList; //
         }
     }
 }
